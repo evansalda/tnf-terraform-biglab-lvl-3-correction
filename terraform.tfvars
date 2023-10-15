@@ -1,0 +1,11 @@
+cidr_vpc              = "20.0.0.0/16" # Remplacer par l'adresse qui vous a été attribuée
+cidr_public_subnet_1  = "20.0.1.0/24" # Remplacer par l'adresse qui vous a été attribuée
+cidr_public_subnet_2  = "20.0.2.0/24" # Remplacer par l'adresse qui vous a été attribuée
+cidr_private_subnet_1 = "20.0.3.0/24" # Remplacer par l'adresse qui vous a été attribuée
+cidr_private_subnet_2 = "20.0.4.0/24" # Remplacer par l'adresse qui vous a été attribuée
+cidr_private_subnet_3 = "20.0.5.0/24" # Remplacer par l'adresse qui vous a été attribuée
+cidr_private_subnet_4 = "20.0.6.0/24" # Remplacer par l'adresse qui vous a été attribuée
+environnement         = "dev"
+digit                 = "00" # Remplacer par votre digit
+ec2_type              = "t3.micro"
+memcached_node_type   = "cache.t2.micro"
